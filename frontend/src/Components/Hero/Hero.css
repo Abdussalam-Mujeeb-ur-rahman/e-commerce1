@@ -1,0 +1,74 @@
+:root {
+    --first-color: #fde1ff;
+    --second-color: #e1ffea22;
+    --h2-text-color: #090909;
+    --p-text-color: #171717;
+    --button-color: #ff4141;
+    --hero-background: linear-gradient(180deg, var(--first-color), var(--second-color) 60%);
+}
+
+.hero {
+    height: 100vh;
+    background: var(--hero-background);
+    display: flex;
+}
+
+.hero-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* gap: 20px; */
+    padding-left: 180px;
+    line-height: 1.1;
+}
+
+.hero-left h2 {
+    color: var(--h2-text-color);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.hero-left p {
+    color: var(--p-text-color);
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.hero-hand-icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-hand-icon .hand-img {
+    color: var(--button-color);
+    font-size: 60px;
+}
+
+.hero-latest-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 280px;
+    height: 50px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: var(--button-color);
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.hero-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-right img {
+    width: 100%;
+    margin-bottom: 150px;
+}
