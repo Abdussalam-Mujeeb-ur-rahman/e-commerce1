@@ -4,7 +4,8 @@ import p3_img from './product_3.png';
 import p4_img from './product_4.png';
 import p5_img from './product_5.png';
 
-let data_product = [
+
+let new_collections = [
     {
         id: 1,
         name: 'Silky Red Gown',
@@ -42,4 +43,4 @@ let data_product = [
     }
 ]
 
-export default data_product;
+export default new_collections;
