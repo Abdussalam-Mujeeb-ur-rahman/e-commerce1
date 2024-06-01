@@ -1,15 +1,17 @@
-// import React, { createContext } from 'react';
-// import data from "../Components/Assets/data";
+import React, { createContext } from 'react';
+import data from "../Components/Assets/data";
 
-// export const ShopContext = createContext(null);
+export const ShopContext = createContext(null);
 
-// const ShopContextProvider = (props) => {
+const ShopContextProvider = (props) => {
 
-//     const contextValue = {data};
+    const contextValue = data;
 
-//     return (
-//         <ShopContext.Provider value={contextValue}/>
+    return (
+        <ShopContext.Provider value={contextValue}>
+            {props.children}
+        </ShopContext.Provider>
+    );
+};
 
-//         </ShopContext.Provider>
-//     )
-// }
+export default ShopContextProvider;
