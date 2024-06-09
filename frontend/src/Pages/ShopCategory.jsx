@@ -5,7 +5,7 @@ import { IoIosArrowDropdown } from "react-icons/io";
 import Item from '../Components/Item/Item';
 
 const ShopCategory = (props) => {
-  const data = useContext(ShopContext);
+  const {data} = useContext(ShopContext);
 
   return (
     <div className='shop-category'>
