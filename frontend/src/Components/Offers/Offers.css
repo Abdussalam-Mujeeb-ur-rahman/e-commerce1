@@ -1,6 +1,6 @@
 .offers {
     width: 65%;
-    height: 60vh;
+    height: 400px;
     display: flex;
     margin: auto;
     padding: 0px 140px;
@@ -53,4 +53,132 @@
 .offers-right img {
     position: relative;
     top: 78px;
+}
+
+
+/* WEB BREAKPOINTS */
+@media (max-width: 1440px) {
+    .offers {
+        padding: 0 80px;
+        margin-bottom: 120px;
+        height: 300px;
+    }
+
+    .offers-left h1 {
+        font-size: 40px;
+    }
+
+    .offers-left p {
+        font-size: 18px;
+    }
+
+    .offers-left button {
+        width: 135px;
+        height: 45px; 
+        font-size: 18px;
+    }
+
+    .offers-right {
+        padding-top: 30px;
+    }
+
+    .offers-right img {
+        width: 95%;
+        top: 60px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .offers {
+        padding: 0 60px;
+        margin-bottom: 80px;
+        height: 250px;
+    }
+
+    .offers-left h1 {
+        font-size: 30px;
+    }
+
+    .offers-left p {
+        font-size: 16px;
+    }
+
+    .offers-left button {
+        width: 125px;
+        height: 40px; 
+        font-size: 16px;
+    }
+
+    .offers-right {
+        padding-top: 10px;
+    }
+
+    .offers-right img {
+        width: 95%;
+        top: 60px;
+    }
+}
+
+@media (max-width: 834px) {
+    .offers {
+        padding: 10px 50px;
+        margin-bottom: 60px;
+        height: 180px;
+    }
+
+    .offers-left h1 {
+        font-size: 20px;
+    }
+
+    .offers-left p {
+        font-size: 13px;
+    }
+
+    .offers-left button {
+        width: 110px;
+        height: 30px; 
+        font-size: 12px;
+    }
+
+    .offers-right {
+        padding-top: 0px;
+    }
+
+    .offers-right img {
+        width: auto;
+        height: 300px;
+        top: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .offers {
+        padding: 10px 20px;
+        margin-bottom: 50px;
+        height: 120px;
+    }
+
+    .offers-left h1 {
+        font-size: 16px;
+    }
+
+    .offers-left p {
+        font-size: 10px;
+    }
+
+    .offers-left button {
+        width: 80px;
+        height: 20px; 
+        font-size: 9px;
+    }
+
+    .offers-right {
+        padding-top: 0px;
+    }
+
+    .offers-right img {
+        width: auto;
+        height: 220px;
+        top: 30px;
+    }
 }

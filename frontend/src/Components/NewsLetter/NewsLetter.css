@@ -1,6 +1,6 @@
 .newsletter {
     width: 65%;
-    height: 40vh;
+    height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,4 +53,132 @@
     font-size: 16px;
     cursor: pointer;
     border: 1px solid #e3e3e3;
+}
+
+
+/* WEB BREAKPOINTS */
+@media (max-width: 1440px) {
+    .newsletter {
+        padding: 0px 80px;
+        margin-bottom: 120px;
+        gap: 20px;
+        height: 280px;
+    }
+
+    .newsletter h1 {
+        font-size: 36px;
+    }
+
+    .newsletter p {
+        font-size: 16px;
+    }
+
+    .newsletter div {
+        width: 600px;
+        height: 50px;
+    }
+
+    .newsletter input {
+        width: 400px;
+    }
+
+    .newsletter div button {
+        width: 150px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .newsletter {
+        margin-bottom: 60px;
+        height: 200px;
+    }
+
+    .newsletter h1 {
+        font-size: 30px;
+    }
+
+    .newsletter p {
+        font-size: 14px;
+    }
+
+    .newsletter div {
+        width: 500px;
+        height: 40px;
+    }
+
+    .newsletter input {
+        width: 300px;
+        font-size: 14px;
+    }
+
+    .newsletter div button {
+        width: 110px;
+        height: 40px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 834px) {
+    .newsletter {
+        padding: 0px 70px;
+        margin-bottom: 30px;
+        /* gap: 20px; */
+        height: 180px;
+    }
+
+    .newsletter h1 {
+        font-size: 18px;
+    }
+
+    .newsletter p {
+        font-size: 12px;
+    }
+
+    .newsletter div {
+        width: 400px;
+        height: 30px;
+    }
+
+    .newsletter input {
+        width: 200px;
+        font-size: 13px;
+    }
+
+    .newsletter div button {
+        width: 90px;
+        height: 30px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .newsletter {
+        width: 100%;
+        padding: 0;
+        gap: 15px;
+        height: 160px;
+    }
+
+    .newsletter h1 {
+        font-size: 16px;
+    }
+
+    .newsletter p {
+        font-size: 13px;
+        max-width: 200px;
+        text-align: center;
+    }
+
+    .newsletter div {
+        max-width: 290px;
+    }
+
+    .newsletter input {
+        max-width: 130px;
+    }
+
+    .newsletter div button {
+        max-width: 90px;
+    }
 }
