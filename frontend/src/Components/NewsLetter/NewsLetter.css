@@ -161,24 +161,24 @@
     }
 
     .newsletter h1 {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .newsletter p {
-        font-size: 13px;
-        max-width: 200px;
+        font-size: 11px;
+        max-width: 190px;
         text-align: center;
     }
 
     .newsletter div {
-        max-width: 290px;
+        max-width: 250px;
     }
 
     .newsletter input {
-        max-width: 130px;
+        max-width: 110px;
     }
 
     .newsletter div button {
-        max-width: 90px;
+        max-width: 80px;
     }
 }
