@@ -9,3 +9,33 @@
     text-transform: capitalize;
 }
 
+
+
+
+/* WEB BREAKPOINTS */
+@media (max-width: 1440px) {
+    .breadcrumbs {
+        margin: 30px 50px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .breadcrumbs {
+        margin: 30px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 834px) {
+    .breadcrumbs {
+        margin: 30px 10px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .breadcrumbs {
+        font-size: 10px;
+    }
+}

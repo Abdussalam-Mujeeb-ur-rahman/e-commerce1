@@ -23,11 +23,11 @@ const ProductDisplay = (props) => {
       <div className="productDisplay-right">
         <h1>{product.name}</h1>
         <div className="productDisplay-right-stars">
-            <FaStar />
-            <FaStar />
-            <FaStar />
-            <FaStar />
-            <FaStar />
+            <FaStar className='star' />
+            <FaStar className='star' />
+            <FaStar className='star' />
+            <FaStar className='star' />
+            <FaStar className='star' />
             <p>(122)</p>
         </div>
         <div className="productDisplay-right-prices">

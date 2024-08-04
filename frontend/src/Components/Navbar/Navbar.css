@@ -90,6 +90,8 @@
 .cart-icon {
     font-size: 30px;
     cursor: pointer;
+    position: relative;
+    top: 5px;
 }
 
 .nav-cart-count {
@@ -98,12 +100,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -35px;
-    margin-left: -55px;
+    margin-top: -25px;
+    margin-left: -50px;
     border-radius: 11px;
     font-size: 14px;
     background: var(--count-color);
     color: var(--button-bg-color);
+    z-index: 1;
 }
 
 
