@@ -5,7 +5,7 @@ import { TbShoppingCartCancel } from "react-icons/tb";
 
 
 const CartItems = () => {
-    const {data, cartItems, addToCart, removeFromCart, getTotalCartAmount} = useContext(ShopContext);
+    const {data, cartItems, removeFromCart, getTotalCartAmount} = useContext(ShopContext);
   return (
     <div className='cartItems'>
       <div className="cartItems-format-main headers">
