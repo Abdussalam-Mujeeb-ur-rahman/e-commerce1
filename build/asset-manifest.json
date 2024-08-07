@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.08f695c3.css",
+    "main.js": "/static/js/main.0a4cca27.js",
+    "static/media/product_3.png": "/static/media/product_3.e1c0d70fbe720254e6f0.png",
+    "static/media/product_1.png": "/static/media/product_1.c2a6d55722370dcb0a43.png",
+    "static/media/product_2.png": "/static/media/product_2.f8ef5b7b8a20edbaa9c3.png",
+    "static/media/product_5.png": "/static/media/product_5.812826916cdda4185a08.png",
+    "static/media/product_4.png": "/static/media/product_4.24dcf14542dcdcd025d9.png",
+    "static/media/home-img.png": "/static/media/home-img.41bfa160a3018dbfb3fc.png",
+    "static/media/exclusive_image.png": "/static/media/exclusive_image.b867bf66a210c2b4176c.png",
+    "static/media/kids1.jpeg": "/static/media/kids1.962adb7fc191ab8c275d.jpeg",
+    "static/media/men1.jpeg": "/static/media/men1.f91a8856f2dc71f10811.jpeg",
+    "static/media/kids2.webp": "/static/media/kids2.d2c0591f61b8d77ce473.webp",
+    "static/media/kids4.jpeg": "/static/media/kids4.992de2c4a6c8eb88da94.jpeg",
+    "static/media/men4.jpeg": "/static/media/men4.a339432a35b6248d4dcc.jpeg",
+    "static/media/kids_banner.jpeg": "/static/media/kids_banner.67dc088a14d4e3405560.jpeg",
+    "static/media/kids3.jpeg": "/static/media/kids3.b8ac11e5b4b898b5e78c.jpeg",
+    "static/media/women_banner.jpeg": "/static/media/women_banner.98ed41e8712ecbb6a7d2.jpeg",
+    "static/media/men_banner.jpeg": "/static/media/men_banner.bc12b05703c7bbb7711a.jpeg",
+    "static/media/men5.webp": "/static/media/men5.1228e197aeea60b56811.webp",
+    "static/media/men2.webp": "/static/media/men2.d0c73e5c2dfaa4dd7008.webp",
+    "static/media/men3.webp": "/static/media/men3.eb2ce25b59cb2b982ce4.webp",
+    "static/media/kids5.webp": "/static/media/kids5.e654f2cc178f523acd06.webp",
+    "static/media/dropdown.png": "/static/media/dropdown.acc973892127a5fd52fd.png",
+    "index.html": "/index.html",
+    "main.08f695c3.css.map": "/static/css/main.08f695c3.css.map",
+    "main.0a4cca27.js.map": "/static/js/main.0a4cca27.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08f695c3.css",
+    "static/js/main.0a4cca27.js"
+  ]
+}
